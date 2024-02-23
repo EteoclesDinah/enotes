@@ -4,11 +4,11 @@
     --white:#fff;
     --black:#222;
     --lightfrey:#C6C6C6;
-    /*
+    
     --light-color;
     --transparent-white:rgba(255,255,255,.3);
     --border:0.2rem solid var(--black);
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);*/
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
  }
  
  html::-webkit-scrollbar{
@@ -67,10 +67,10 @@ body{
 h2 {
     color:rgb(13, 0, 0);
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 100px;
+    font-size: 1000%;
     justify-content:left;
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 0%;
     position: relative;
 }
 
@@ -89,3 +89,119 @@ h2 {
 
 }
 
+
+/* HEADER *******************************/
+
+
+.header{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background-color: #8104d3;
+    text-align: center;
+    width: 100%;
+    box-shadow: 1rem 5px 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+ }
+ 
+ .header .nav a{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 0rem 1.1rem;
+    background-color: #4d0952;
+    border-radius: 0.8rem;
+    display: inline-block;
+ }
+ 
+ 
+ .header .nav a:hover,a:active{
+    color: #8104d3;
+    background-color: aliceblue;
+    border-radius: 0.8rem;
+ }
+ 
+ 
+ 
+ 
+ 
+ /*footer#AF98B7*/
+ 
+ 
+ 
+ .footer{
+    background: var(--lightfrey);
+    margin-top: 50px;
+    box-shadow: #867095;
+    box-shadow: 1rem 5px 1rem;
+    opacity: 1;
+    margin-bottom: 50px;
+    color: transparent;
+ }
+ 
+ .footer .box-container{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+     gap: 2rem;
+ }
+ 
+ .footer .box-container .box h3{
+     font-size: 25px;
+     text-transform: uppercase;
+     color:rgb(132, 4, 4);
+     padding: 0.3cm;
+     background-color: rgb(0, 130, 86);
+     width: fit-content;
+     border-radius: 0.5rem;
+  }
+ 
+ .footer .box-container .box a{
+     display: block;
+     font-size:30px;
+     color:var(--black);
+     text-transform: capitalize;
+     margin-bottom: 6px;
+     padding-left: 0.5cm;
+  }
+ 
+  .footer .box-container .box a:hover i{
+     padding-right: 30px;
+  }
+ 
+  .footer .box-container .box a:hover{
+     color: rgb(232, 112, 0);
+  }
+ 
+ 
+          /***extra links ******/
+ 
+          
+          .ebox h1{
+             font-size: 2rem;
+             margin-top: 3rem;
+             font-family: 'Times New Roman', Times, serif;
+             background-color: #94c163;
+             text-transform: capitalize;
+             width: fit-content;
+             padding: 1rem;
+             border-radius: 0.5rem;
+          }
+ 
+ 
+          .ebox p{
+             font-size: 1.5rem;
+             padding-left: 01rem;
+             font-family: 'Times New Roman', Times, serif;
+             margin-top: 0.3rem;
+          }
+ 
+ 
+          .ebox h2{
+             font-size: 1.5rem;
+             padding-left: 01rem;
+             font-family: 'Times New Roman', Times, serif;
+             color: rgb(186, 186, 10);
+          }
+ 
+ 
