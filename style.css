@@ -27,13 +27,32 @@ body{
     background-attachment: fixed;
 }
 
+/*new media query*/
+
+/*/ Example of media queries for responsiveness*/
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens here*/
+    .container {
+        max-width: 100%; /* Adjust width for smaller screens*/
+    }
+
+    h2 {
+        font-size: 36px; /* Adjust font size for smaller screens*/
+    }
+}
+
+/**/
+
 .container{
     border-radius: .8rem;
     overflow: auto;
     background: var(--transparent-white);
     /*backdrop-filter: blur(.1rem);*/
+    /*
     max-width: 1300px;
-    margin: 5rem auto;   /*container ko mathi ko height*/
+    margin: 5rem auto; */  /*container ko mathi ko height*/
+    width: 90%; 
+    margin: 5% auto;
     box-shadow: var(--box-shadow);
 }
 
