@@ -678,80 +678,76 @@ details p{
 
 /* CONTACT */
 
-
-.contact{
-  box-shadow: 1rem 5px 1rem;
-  margin-top: 2rem;
+.contacts{
+   padding-top: 1cm;
 }
 
-.contact .heading{
-   font-size: 2rem;
-   font-family:Georgia, 'Times New Roman', Times, serif;
-   color: rgb(248, 113, 99);
-   text-transform: uppercase;
-   background-color: rgb(246, 246, 193);
-   width: fit-content;
-   padding: 1.3rem;
-   border-radius: 0.5rem;
+.contacts h1{
+   color: rgb(17, 2, 226);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 1cm;
 }
 
-.contact .heading:hover{
-   background-color:#6804ab;
-   color: white;
+.contacts p{
+   margin: 0.5cm 1.5cm 1cm 1.5cm;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(142, 218, 246);
+   line-height: 30px;
 }
 
-.contact form{          /* whole form ko*/ 
-  padding: 2rem;  /* contach form vitra ko sab lai alikata right push hannalai*/
-  border-radius: 0.5rem;
-  background: var(--transparent-white);
+.contacts .subTitle p:nth-child(1){
+   color: rgb(9, 9, 208);
+   margin-bottom: 0%;
+   margin-left: 2.5cm;
 }
 
-.contact form .body{
-  display: flex;
-  flex-wrap: wrap;
-  
-}
+.contacts .subTitle p:nth-child(2){
+   margin-left: 3cm ;
+   color: rgb(236, 236, 236);
+   background-color: rgb(90, 133, 170);
+   font-weight: bolder;
+   width: 5cm;
+   text-decoration: none;
+   padding: 1cm;
+   box-shadow: inset 20px 20px 20px rgba(20, 19, 19, 0.5), 25px 35px 20px rgba(0, 0, 0, 0.5),25px 30px 30px  rgba(0, 0, 0, 0.5),
+               inset -20px -20px 25px rgba(255,255,255,0.9);
+   transition: 0.5s ease-in-out;
 
-.contact form .body .initials{
-  flex: 70rem;    /* box lai tala jharna lai*/
-}
-
-.contact form .body .initials span{
-  display: block;
-  font-size: 1.5rem;
-  color: #222;
-  text-transform: capitalize;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.contact form .body .box input,.contact form .body textarea,.contact form .body .box select{
-  width: 160%;
-  padding: 1rem;             /*  box ko height*/
-  /*border: var(--border);*/   /*  box ko border bold banauxa*/
-  border-radius: 0.5rem;     /* box ko border ko cornering */
-  font-size: 1.2rem;            /* box vitra ko text*/
-  background: var(--transparent-white);   /* background mathi text matra halna lai  */
-}
-
-.contact form .body .box textarea{
-  height: 5rem;
-  resize: none;
-}
-
-.contact form .respond .btn{
-   margin-top: 9rem;   /*send button mathi ko gap*/
-   text-transform: capitalize;
-   padding: 1rem;
-   font-size: 1rem;
-   align-items: flex-end;
-   background-color: #74047e;
-   color: white;
-   border-radius: 0.5rem;
 }
 
 
-/*  message lekhney box ko area badhauna ghatauna contact ko send msg ma gayera rows and column ghatauney badhauney*/
+
+.contacts .subTitle .drop:hover{
+   border-radius: 50%;
+   background-color: rgb(255, 9, 198);
+}
+
+.socialMediaIcons p{
+   color: rgb(0, 0, 223);
+   margin-bottom: 0%;
+   margin-left: 2.5cm;
+}
+
+.socialMediaIcons a{
+   display: inline-block;
+   margin-left: 3cm ;
+   margin-bottom: 0.5cm;
+   margin-top: 1cm;
+   color: rgb(116, 2, 2);
+   background-color: rgb(90, 133, 170);
+   font-weight: bolder;
+   font-size: 30px;
+   width: 3cm;
+   text-decoration: none;
+   padding: 1cm;
+   box-shadow: inset 20px 20px 20px rgba(20, 19, 19, 0.5), 25px 35px 20px rgba(0, 0, 0, 0.5),25px 30px 30px  rgba(0, 0, 0, 0.5),
+               inset -20px -20px 25px rgba(255,255,255,0.9);
+   transition: 0.5s ease-in-out;
+}
 
 
-
+.socialMediaIcons a:hover{
+   border-radius: 50%;
+   background-color: rgb(255, 9, 198);
+}
