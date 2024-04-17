@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="about" id="about">
-            
+
+        <div id="headerContainer"></div>
+
+        <div class="about">
+
+            <h4>About</h4>
+
+            <p>
+                used a simple programming language PHP (HyperText Preprocessor): a powerful tool and generally called as a server scripting language, HTML (Hyper Text Transfer Protocol), CSS (Cascading Style Sheets ). <br>
+                We also used Visual Studio Code to integrate all these into a single domain and MYSQL server to execute our Website. <br> 
+            </p>
+        </div>
+
             <section class="team">
-                <h1 class="heading"> our team</h1>
+                <h1 class="heading">team</h1>
                 <div class="box-container">
                     <div class="box">
                         <img src="images/kamala.jpg" alt="" height=50% width=60%>
@@ -31,7 +46,16 @@
 
             </section>
 
-        </div>
+            <div id="footerContainer"></div>
+       
     </div>
+
+    <script>
+        $(function(){
+            $('#headerContainer').load('header.html');
+
+            $('#footerContainer').load('footer.html');
+        });
+    </script>
 </body>
 </html>
